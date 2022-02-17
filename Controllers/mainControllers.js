@@ -35,27 +35,27 @@ const listaProductos = [
 
 const mainController = {
 
-    index: (req, res) => {
-        res.render("index",{});
+    'index': function(req, res) {
+        res.render('index');
     },
 
-    productCart: (req, res) => {
-        res.render("productCart",{});
+    'productCart': function(req, res) {
+        res.render('productCart');
     },
 
 
-    productDetail: (req, res) => {
-        res.render("productDetail",{});
+    'productDetail': function(req, res) {
+        res.render('productDetail');
       },
 
 
-      login: (req, res) => {
-        res.render("login",{});
+      'login': function(req, res) {
+        res.render('login');
       },
 
 
-      register: (req, res) => {
-        res.render("register",{});
+      'register': function(req, res) {
+        res.render('register');
       },
 
 
