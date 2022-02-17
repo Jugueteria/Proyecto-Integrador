@@ -59,6 +59,11 @@ const mainController = {
       },
 
 
+      'form_admin': function(req, res) {
+        res.render('form_admin');
+      },
+
+
   };
   
   module.exports = mainController;
