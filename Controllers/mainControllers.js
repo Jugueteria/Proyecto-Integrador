@@ -6,28 +6,28 @@ const mainController = {
         res.render('index');
     },
 
-    'productCart': function(req, res) {
-        res.render('productCart');
+    productCart: (req, res)=> {
+        res.render('products/productCart');
     },
 
 
     'productDetail': function(req, res) {
-        res.render('productDetail');
+        res.render('products/productDetail');
       },
 
 
       'login': function(req, res) {
-        res.render('login');
+        res.render('users/login');
       },
 
 
       'register': function(req, res) {
-        res.render('register');
+        res.render('users/register');
       },
 
 
       'form_admin': function(req, res) {
-        res.render('form_admin');
+        res.render('users/form_admin');
       },
 
 
